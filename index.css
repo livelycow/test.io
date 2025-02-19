@@ -230,7 +230,7 @@ body {
 
 .center-image {
     position: absolute;          /* Absolute positioning relative to the viewport */
-    top: 30%;                    /* Move 50% from the top of the viewport */
+    top: 20%;                    /* Move 50% from the top of the viewport */
     left: 80%;                   /* Move 50% from the left of the viewport */
     transform: translate(-50%, -50%);  /* Offset by 50% of the image's width and height to center it */
     max-width: 100%;
@@ -260,4 +260,5 @@ body {
         font-size:14px;
     }
 }
+
 
