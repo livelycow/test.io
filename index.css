@@ -232,17 +232,32 @@ body {
     position: absolute;          /* Absolute positioning relative to the viewport */
     top: 30%;                    /* Move 50% from the top of the viewport */
     left: 80%;                   /* Move 50% from the left of the viewport */
-    transform: translate(-40%, -30%);  /* Offset by 50% of the image's width and height to center it */
+    transform: translate(-50%, -50%);  /* Offset by 50% of the image's width and height to center it */
     max-width: 100%;
     height: auto;
 }
 
 .center-image2 {
 	position: absolute;
-	top: 20%;
-	right: 50%;
-	transform: translate(-70%, -20%);
+	top: 30%;
+	left: 20%;
+	transform: translate(-90%, -50%);
 	max-width: 100%;
 	height: auto;
 }
 	
+.container {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+
+@media screen and (max-width:768px) {
+    .container{
+        flex-direction:column;
+    }
+    .menu{
+        font-size:14px;
+    }
+}
+
